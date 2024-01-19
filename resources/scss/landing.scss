@@ -546,6 +546,10 @@ $bg_primary: #15548d;
                 height: 96px;
                 border-radius: 1000px;
                 color: $text_triple_black;
+                &:hover {
+                    cursor: pointer;
+                    background-color: darken($bg_yellow_gwk, 10%);
+                }
             }
             .swiper-button-next {
                 background-color: $bg_yellow_gwk;
@@ -553,6 +557,10 @@ $bg_primary: #15548d;
                 height: 96px;
                 border-radius: 1000px;
                 color: $text_triple_black;
+                &:hover {
+                    cursor: pointer;
+                    background-color: darken($bg_yellow_gwk, 10%);
+                }
             }
         }
     }
